@@ -232,13 +232,13 @@ export const CurrencyInput: FC<CurrencyInputProps> = forwardRef<
         value: newValue,
       });
 
-      if (onValueChange) {
-        onValueChange(newValue, name, {
-          float: numberValue,
-          formatted: formattedValue,
-          value: newValue,
-        });
-      }
+      // if (onValueChange) {
+      //   onValueChange(newValue, name, {
+      //     float: numberValue,
+      //     formatted: formattedValue,
+      //     value: newValue,
+      //   });
+      // }
 
       setStateValue(formattedValue);
 
